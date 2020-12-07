@@ -14,4 +14,5 @@ function reduce(src, callback, starting){
   for(;i<src.length;i++){
     r=cb(src[i],r);
   }
+  return r;
 }
