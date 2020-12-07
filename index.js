@@ -8,4 +8,6 @@ function map(src, callback){
   return r;
 }
 
-function reduce(src, callback)
+function reduce(src, callback, starting){
+  
+}
