@@ -5,5 +5,5 @@ function map(src, callback){
     let e=src[i];
     r.push(callback(e));
   }
-  
+  return r;
 }
