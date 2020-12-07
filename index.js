@@ -9,5 +9,5 @@ function map(src, callback){
 }
 
 function reduce(src, callback, starting){
-  let r= (!!starting)
+  let r= (!!starting) ? starting
 }
